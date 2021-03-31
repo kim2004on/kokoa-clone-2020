@@ -1,0 +1,32 @@
+.icon-row,
+.icon-row2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-row__icons,
+.icon-row2__icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-row__icons i,
+.icon-row2__icons i {
+  font-size: 35px;
+  transition: transform 1.5s ease-in-out;
+}
+
+.icon-row__icons i:hover,
+.icon-row2__icons i:hover {
+  transform: rotateZ(360deg) scale(1.5);
+}
+
+.icon-row__icons span,
+.icon-row2__icons span {
+  margin-top: 18px;
+}
+
+.icon-row2 {
+  margin-top: 30px;
+}
